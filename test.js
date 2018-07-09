@@ -13,3 +13,10 @@ test("Check that the function returns a value", function(t){
   t.equal(actual, expected, "Input of 1 should return 1");
   t.end();
 });
+
+test("Check that input of 2 returns 2", function(t){
+  var actual = fizzbuzz(2);
+  var expected = 2;
+  t.equal(actual,expected,"Input of 2 should return 2");
+  t.end();
+});

@@ -20,3 +20,10 @@ test("Check that input of 2 returns 2", function(t){
   t.equal(actual,expected,"Input of 2 should return 2");
   t.end();
 });
+
+test("Check that input of 3 returns Fizz", function(t){
+  var actual = fizzbuzz(3);
+  var expected = "Fizz";
+  t.equal(actual, expected,"Input of 3 should return 'Fizz'");
+  t.end();
+});

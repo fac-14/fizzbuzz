@@ -1,9 +1,10 @@
 'use strict';
 
 function fizzbuzz(number) {
-  if ( number === 2 )
-    return 2;
-  else return 1;  
-}
-
+  if ( number === 3){
+    return "Fizz";
+  } else {
+    return number;
+  }
+};
 module.exports = fizzbuzz;

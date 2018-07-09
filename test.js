@@ -34,3 +34,10 @@ test("Check that multiple of 3 returns Fizz", function(t){
   t.equal(actual, expected, "Input of 9 should return Fizz");
   t.end();
 });
+
+test("Check that multiple of 5 but not 3 returns Buzz", function(t){
+  var actual = fizzbuzz(25);
+  var expected = "Buzz";
+  t.equal(actual, expected, "Input of 25 should return 'Buzz'");
+  t.end();
+});

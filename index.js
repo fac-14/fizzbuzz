@@ -1,7 +1,7 @@
 'use strict';
 
 function fizzbuzz() {
-  // write your code here
+  return 1;
 }
 
 module.exports = fizzbuzz;

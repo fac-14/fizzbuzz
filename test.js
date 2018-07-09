@@ -27,3 +27,10 @@ test("Check that input of 3 returns Fizz", function(t){
   t.equal(actual, expected,"Input of 3 should return 'Fizz'");
   t.end();
 });
+
+test("Check that multiple of 3 returns Fizz", function(t){
+  var actual = fizzbuzz(9);
+  var expected = "Fizz";
+  t.equal(actual, expected, "Input of 9 should return Fizz");
+  t.end();
+});

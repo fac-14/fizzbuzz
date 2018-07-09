@@ -1,7 +1,7 @@
 'use strict';
 
 function fizzbuzz(number) {
-  if ( number === 3){
+  if ( number % 3 == 0 ){
     return "Fizz";
   } else {
     return number;
